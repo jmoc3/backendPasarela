@@ -6,7 +6,7 @@ return [
     'allowed_methods' => ['*'],
 
     // 'allowed_origins' => ['http://localhost:5173'],
-    'allowed_origins' => ['https://https://backendpasarela-production.up.railway.app/'],
+    'allowed_origins' => ['https://https://frontend-pasarela-one.vercel.app'],
 
     'allowed_origins_patterns' => [],
 
