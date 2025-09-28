@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreFacturaRequest;
 use Illuminate\Http\Request;
 use App\Services\FacturaService;
-use Exception;
 use Illuminate\Http\JsonResponse;
+use Exception;
 
 class FacturaController extends Controller
 {

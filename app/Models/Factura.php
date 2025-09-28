@@ -31,7 +31,7 @@ class Factura extends Model
     }
 
     public function divisa(): BelongsTo{
-        return $this->BelongsTo(Divisa::class, 'tipo_documento_id', 'id');
+        return $this->BelongsTo(Divisa::class, 'divisa_id', 'id');
     }
 
 }
